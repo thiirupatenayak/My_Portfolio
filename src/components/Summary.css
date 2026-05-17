@@ -1,0 +1,42 @@
+.summary {
+  padding: 5rem 2rem;
+}
+
+.section-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.section-line {
+  height: 4px;
+  width: 60px;
+  background: var(--gradient-bg);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.summary-content {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.summary-content p {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.summary-content p:last-child {
+  margin-bottom: 0;
+}
+
+.summary-content strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
